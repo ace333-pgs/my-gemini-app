@@ -5,7 +5,3 @@
   node_bundler = "esbuild"
   external_node_modules = []
   python_version = "3.9"
-
-[build.environment]
-  # 이 환경 변수는 Python 함수를 위한 람다 런타임을 명시합니다.
-  AWS_LAMBDA_PYTHON_RUNTIME = "python3.9"
